@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 769px) {
+    .only-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .only-desktop {
+        display: none;
+    }
+}
+
+.setup-background {
+    height: 12vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 769px) {
+    .setup-background {
+        height:100vh ;
+    }
+}
+@media screen and (max-width: 769px) {
+    .setup-background {
+        height: 110vh;
+    }
+}
+@media screen and (max-width: 769px) {
+    .hero-src {
+        background-image: url(img/home/banner.png);
+        background-position-y: top;
+        background-position-x: center;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .hero-src {
+        background-image: url(img/home/ban-d.png);
+        background-position-y: top;
+        background-position-x: center;
+}
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../fonts/Montserrat-Black.woff') format('woff'),
+        url('../fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+
+}
+
+/*HOME*/
+#body-home{
+    font-family: 'Montserrat';
+    color: #2b3d54;
+}
+#body-family{
+    font-family: 'Montserrat';
+    color: #2b3d54;
+    background-color: #fcfad1;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position-y: top;
+}
+
+
+
+/*SHOP*/
+#body-shop{
+    font-family: 'Montserrat';
+    background-image: url(img/shop/topograf.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
+
+
+/*NEXT EVENTS*/
+#body-event{
+    font-family: 'Montserrat';
+    color: #2b3d54;
+    background-image: url(img/events/fondo-eventos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
+.tipoBold {
+    font-family: 'Montserrat';
+    color: #2b3d54;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.card {
+    width: 75vw;
+    max-width: 850px;
+    min-width: 450px;
+    background-color: rgba(253, 253, 227);
+    border-radius: 55px;
+}
+
+.img-banda {
+    width: 95%;
+}
+
+.event-item {
+    position: relative;
+}
+
+.line {
+    border-bottom: 1px solid #2b3d54; /* Color de la línea */
+}
+
+.event-item .location,
+.event-item .date {
+    font-family: 'Montserrat';
+    color: #2b3d54;
+    font-weight: bold;
+}
+
+.ticket{
+    font-family: 'Montserrat';
+    color: #2b3d54;
+}
+
+.icon-ticket{
+    color: #2b3d54;
+    font-size: 24px;
+}
+
+
+/*ABOUT US*/
+
+#bold-orange {
+    font-weight: bold;
+    color: #F08A26;
+}
+
+#bold-blue {
+    font-weight: bold;
+    color: #2B5474;
+}
+
+/*About us desktop*/
+
+#body-about {
+    font-family: 'Montserrat';
+    color: #2B5474;
+}
+
+#title-about {
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+#h2-about {
+    margin-bottom: 2%;
+}
+
+#p-about {
+    font-weight: lighter;
+    font-size: 160%;
+}
+
+#about {
+    max-height: max-content;
+    background: url(img/about/desktop/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#about-bg {
+    background-color: #fcfad1a6;
+    border-radius: 5rem;
+    border: 5px solid;
+    border-color: #FCFAD1;
+    max-width: 80%;
+}
+
+#about-txt {
+    padding: 5%;
+}
+
+#our-desktop {
+    background: url(img/about/desktop/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#h2-our {
+    font-weight: 400;
+    font-size: 270%;
+    padding-bottom: 4%;
+}
+
+#p-our {
+    font-weight: 300;
+    font-size: larger;
+}
+
+
+/*About us mobile*/
+
+#about-bg-mobile {
+    background-color: #fcfad1;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    z-index: 2;
+    position: relative;
+}
+
+#about-mobile-txt {
+    padding: 7%;
+}
+
+#banner-mobile {
+    margin-top: -15%;
+}
+
+#our-mobile {
+    background: url(img/about/mobile/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#our-sections-mobile {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#h2-our-mobile {
+    font-weight: 400;
+    font-size: 250%;
+}
+
+#p-our-mobile {
+    font-weight: 300;
+    font-size: larger;
+}
